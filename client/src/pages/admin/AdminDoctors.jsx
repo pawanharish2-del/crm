@@ -19,7 +19,7 @@ const AdminDoctors = () => {
     const [editingDoctor, setEditingDoctor] = useState(null);
     const [showForm, setShowForm] = useState(false);
 
-    // Default Availability Structure
+    // Default Availability Sfdgfgftructure
     const defaultAvailability = {
         monday: { available: false, startTime: '09:00', endTime: '17:00' },
         tuesday: { available: false, startTime: '09:00', endTime: '17:00' },
